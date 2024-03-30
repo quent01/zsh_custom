@@ -52,6 +52,6 @@ alias cdd8t="cd web/themes/custom"
 # Docker
 # ---------------------------------
 alias vd="docker compose down"
-alias vh="docker compose halt"
+alias vh="docker compose stop"
 alias vssh="docker compose exec web /bin/bash"
 alias vup="docker compose up"
