@@ -17,6 +17,7 @@ alias e.="explorer.exe ."
 alias e-a="code $ZSH_CUSTOM/aliases.zsh"
 alias e-ssh="code ~/.ssh/config"
 alias find--lg="find . -type f -size +10000k"
+# alias find--todo="awk '/@todo/ {print NR "\t" ($1=$2="") $0}' $@"
 alias init="exec zsh"
 alias l="ls -al"
 alias meminfo='free -m -l -t'
@@ -48,10 +49,15 @@ alias cdd7t="cd sites/all/themes"
 alias cdd8m="cd web/modules/custom"
 alias cdd8t="cd web/themes/custom"
 
+# ---------------------------------------------
+# Launch programms
+# ---------------------------------------------
+alias gk="gitkraken"
+
 # ---------------------------------
 # Docker
 # ---------------------------------
-alias vd="docker compose down"
-alias vh="docker compose stop"
+alias vd="docker-compose down"
+alias vh="docker-compose stop"
 alias vssh="docker compose exec web /bin/bash"
-alias vup="docker compose up"
+alias vup="docker-compose up -d"
