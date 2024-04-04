@@ -2,6 +2,7 @@
 # Paths
 # ----------------------------------
 alias @dev="cd ~/projets"
+alias @pro="cd ~/projets_actency"
 alias @home="cd ~"
 alias @ssh="cd ~/.ssh"
 
