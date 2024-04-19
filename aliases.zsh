@@ -55,6 +55,16 @@ alias cdd8t="cd web/themes/custom"
 # ---------------------------------------------
 alias gk="gitkraken"
 
+
+# ---------------------------------
+# DDEV
+# ---------------------------------
+alias ddd="ddev delete"
+alias ddh="ddev stop"
+alias ddssh="ddev ssh"
+alias ddup="ddev start"
+
+
 # ---------------------------------
 # Docker
 # ---------------------------------
