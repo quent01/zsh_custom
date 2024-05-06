@@ -61,6 +61,7 @@ alias gk="gitkraken"
 # ---------------------------------
 alias ddd="ddev delete"
 alias ddh="ddev stop"
+alias ddinit="ddev init-project"
 alias ddssh="ddev ssh"
 alias ddup="ddev start"
 
