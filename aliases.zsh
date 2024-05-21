@@ -54,6 +54,8 @@ alias cdd8t="cd web/themes/custom"
 # Launch programms
 # ---------------------------------------------
 alias gk="gitkraken"
+# maj gitkraken
+alias gk--update="wget https://release.gitkraken.com/linux/gitkraken-amd64.deb; sudo apt install ./gitkraken-amd64.deb"
 
 
 # ---------------------------------
