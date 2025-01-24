@@ -62,6 +62,7 @@ alias gk--update="wget https://release.gitkraken.com/linux/gitkraken-amd64.deb; 
 # DDEV
 # ---------------------------------
 alias ddd="ddev delete"
+alias ddd--no-snap="ddev delete --omit-snapshot"
 alias ddh="ddev stop"
 alias ddinit="ddev init-project"
 alias ddssh="ddev ssh"
