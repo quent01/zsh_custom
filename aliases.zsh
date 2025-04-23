@@ -65,6 +65,7 @@ alias ddd="ddev delete"
 alias ddd--no-snap="ddev delete --omit-snapshot"
 alias ddh="ddev stop"
 alias ddinit="ddev init-project"
+alias ddmail="ddev launch -m"
 alias ddssh="ddev ssh"
 alias ddup="ddev start"
 
