@@ -77,3 +77,15 @@ alias vd="docker-compose down"
 alias vh="docker-compose stop"
 alias vssh="docker compose exec web /bin/bash"
 alias vup="docker-compose up -d"
+
+# ---------------------------------
+# Docker Tools
+# ---------------------------------
+# ECOINDEX-CLI
+# https://hub.docker.com/r/vvatelot/ecoindex-cli
+# https://github.com/cnumr/EcoIndex_python/tree/main/projects/ecoindex_cli#use-case
+# ecoindex-cli --help
+# ecoindex-cli analyze --url https://www.ecoindex.fr --url https://www.ecoindex.fr/a-propos/ --html-report
+# ecoindex-cli analyze --sitemap https://www.ecoindex.fr/sitemap.xml
+# ecoindex-cli analyze --url https://www.ecoindex.fr --recursive
+alias ecoindex-cli="docker run -it --rm --add-host=host.docker.internal:host-gateway -v /tmp/ecoindex-cli:/tmp/ecoindex-cli vvatelot/ecoindex-cli:latest ecoindex-cli"
