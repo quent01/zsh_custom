@@ -78,6 +78,9 @@ alias vh="docker-compose stop"
 alias vssh="docker compose exec web /bin/bash"
 alias vup="docker-compose up -d"
 
+alias vup--maffr="docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d"
+alias vssh--maffr="docker compose exec php /bin/bash"
+
 # ---------------------------------
 # Docker Tools
 # ---------------------------------
